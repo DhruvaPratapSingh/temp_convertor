@@ -1,0 +1,109 @@
+
+ h1 span{
+    /* color: red; */
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(7, 50, 1);
+    background: url("https://static.vecteezy.com/system/resources/previews/004/243/021/original/abstract-template-background-white-and-bright-blue-squares-overlapping-with-halftone-and-texture-free-vector.jpg");
+}
+
+.container{
+    max-height: 450px;
+    background: rgb(1, 146, 243);
+    border-radius: 8px;
+    /* box-shadow: 0 0 15px 3px black; */
+    font-family: sans-serif;
+    padding: 20px;
+}
+.title{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   flex-wrap: wrap-reverse;
+   gap: 10px;
+}
+.Temperature-icon{
+    font-size: 45px;
+    color: rgb(23, 8, 237);
+}
+h1{
+    /* color: rgb(61, 43, 43); */
+    color: aliceblue;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+#celsius, #fahrenhiet, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    /* background: transparent; */
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+input:hover{
+    /* background:linear-gradient(grey); */
+    background: rgb(226, 183, 183);
+    color:red;
+    font-weight: 300;
+}
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: wheat;
+    color: rgb(8, 5, 5);
+    border-radius: 0 8px 8px 0;
+}
+.button{
+    margin-top: 25px;
+    text-align: center;
+    
+
+}
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: initial;
+    letter-spacing: 1px;
+}
+.button button:hover{
+    color:  rgb(202, 8, 8);
+    background-color:rgb(244, 211, 211);
+    font-style: italic;
+}
