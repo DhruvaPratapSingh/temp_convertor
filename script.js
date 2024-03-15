@@ -38,9 +38,9 @@ kelvinInput.addEventListener('input',function(){
 
 btn.addEventListener('click',()=>{
     celsiusInput.value="";
-    celsiusInput.placeholder="celcius";
+    celsiusInput.placeholder="celsius";
     fahrenhietInput.value="";
-    fahrenhietInput.placeholder="fahrenhite";
+    fahrenhietInput.placeholder="Fahrenheit";
     kelvinInput.value="";
     kelvinInput.placeholder="kelvin";
 })
