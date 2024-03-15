@@ -17,7 +17,8 @@ body{
     align-items: center;
     min-height: 100vh;
     background: rgb(7, 50, 1);
-    background: url("https://static.vecteezy.com/system/resources/previews/004/243/021/original/abstract-template-background-white-and-bright-blue-squares-overlapping-with-halftone-and-texture-free-vector.jpg");
+/*background: url("https://static.vecteezy.com/system/resources/previews/004/243/021/original/abstract-template-background-white-and-bright-blue-squares-overlapping-with-halftone-and-texture-free-vector.jpg"); */
+ background-color:rgb(34, 34, 102);
 }
 
 .container{
