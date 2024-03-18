@@ -6,7 +6,7 @@ let btn = document.querySelector('.button button')
 
 function roundNumber(number){
     return Math.round(number*100)/100;
-}
+} 
 
 celsiusInput.addEventListener('input',function(){
     let cTemp = parseFloat(celsiusInput.value)||0;
